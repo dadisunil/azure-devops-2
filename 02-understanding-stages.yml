@@ -19,15 +19,15 @@ stages:
     steps:
     - bash: echo syu 2nd job
 - stage: Devdeploy
- jobs:
-  - job: devjob
+  jobs:
+  - job: devjob 
     steps:
     - bash: echo dev first job
 - stage: QAdeploy
   jobs:
   - job: qajob
     steps:
-   - bash: echo qa first job
+    - bash: echo qa first job
 - stage: Proddeploy
   jobs:
   - job: prodjob
