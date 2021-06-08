@@ -33,6 +33,3 @@ stages:
   - job: prodjob
     steps:
     - bash: echo prod first job
-steps:
-- script: echo job1, step1!
-  displayName: 'Run a one-line script'
